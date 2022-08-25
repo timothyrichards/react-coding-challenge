@@ -1,0 +1,26 @@
+#wrapper {
+    width: 1560px;
+    margin: 75px auto;
+}
+
+#wrapper > * {
+    margin: 0 auto;
+}
+
+#controls {
+    width: 312px;
+    margin-bottom: 75px;
+}
+
+#controls button {
+    width: 148px;
+    height: 52px;
+    border: none;
+    border-radius: 5px;
+    background-color: #00E3C5;
+    box-shadow: 0 4px 2px -3px grey;
+    font-size: 20px;
+    letter-spacing: 2px;
+    margin: 0 4px;
+    padding: 0;
+}

@@ -1,0 +1,52 @@
+.message {
+    width: 505px;
+    height: 95px;
+    border-radius: 5px;
+    margin-bottom: 8px;
+}
+
+.error {
+    background-color: #F56236;
+    /*background-color: #FF4619;*/
+    box-shadow: 0 4px 2px -3px grey;
+}
+
+.warning {
+    background-color: #FCE788;
+    /*background-color: #FFEA8D;*/
+    box-shadow: 0 4px 2px -3px grey;
+}
+
+.info {
+    background-color: #88FCA3;
+    /*background-color: #92FFC9;*/
+    box-shadow: 0 4px 2px -3px grey;
+}
+
+.text {
+    width: 75%;
+    height: 100%;
+    display: inline-block;
+    padding: 15px 0 15px 15px;
+    box-sizing: border-box;
+}
+
+.text p:nth-child(1) {
+    margin-bottom: 5px;
+}
+
+.message button {
+    background-color: inherit;
+    display: inline-block;
+    background: none;
+    border: none;
+    width: 25%;
+    height: 100%;
+    padding: 15px;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+.message button:hover {
+    cursor: pointer;
+}
